@@ -1,0 +1,15 @@
+Clase 14 Git
+
+Parado en la carpeta desde la terminal
+git init *//Iniciar repositorio
+git status *//Para chequear el directorio
+git add <nombre archivo> *//Para subir el cambio
+git commit -m "primer commit" *//Para commitear el cambio.
+
+git log *// Para ver el historial de losm cambios que se han ido haciendo en el repositorio.
+
+git add .  *//Permite agregar todos los cambios
+git add .jpg *.//Solo subir[ia los archivos con extensi[on .jpg
+git add bootstrap. *// Permite subir solo los archivos que se llaman bootstrap y con cualquier extension
+
+
