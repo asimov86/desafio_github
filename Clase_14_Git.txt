@@ -11,5 +11,30 @@ git log *// Para ver el historial de losm cambios que se han ido haciendo en el 
 git add .  *//Permite agregar todos los cambios
 git add .jpg *.//Solo subir[ia los archivos con extensi[on .jpg
 git add bootstrap. *// Permite subir solo los archivos que se llaman bootstrap y con cualquier extension
+git add --all *// Subir todos los cambios
+
+
+*//No es recomendable realizar varios cambios en el código y luego hacer un sólo commit.  es decir, cambiar el footer, cambiar algo en el css, subir varias imagenes a la carpeta imagenes y luego commitear; no se debe hacer eso.
+
+
+*//Si estamos trabajando con el index, una vez terminemos guardar cambios y commitear el index antes de pasar a trabajar por ejemplo con la sección contactos.html
+Ej commit
+
+git commit -m "index modificado"
+*//Luego trabajar con la otra secci[on, guardar cambios con git add y luego commit
+git commit -m "sección contactos.html modificada"
+
+
+*// Mantener el orden 
+
+
+
+
+*// Ramas
+
+Crear rama secundaria
+git branch *// para visualizar
+git branch nueva_rama *//para crear rama
+git checkout nueva_rama *//Para cambiar a la rama creada
 
 
