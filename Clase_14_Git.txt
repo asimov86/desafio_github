@@ -33,7 +33,7 @@ git commit -m "sección contactos.html modificada"
 *// Ramas
 
 Crear rama secundaria
-git branch *// para visualizar
+git branch *// para visualizar, cuando se consulta aparece un asterisco al lado de la rama seleccionada o rama en la que se encuentra trabajando actualmente.
 git branch nueva_rama *//para crear rama
 git checkout nueva_rama *//Para cambiar a la rama creada
 
