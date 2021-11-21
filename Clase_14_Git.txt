@@ -38,3 +38,17 @@ git branch nueva_rama *//para crear rama
 git checkout nueva_rama *//Para cambiar a la rama creada
 
 
+git branch rama_tres *//crear rama 3
+git branch rama_cuatro
+git branch -D rama_cuatro *//Permite borrar una rama
+
+*//Recuperar contenido de una rama antes de borrarla.
+*//Me muevo primero a la rama principal o a la rama a la que *//me quiero llevar el cambio.
+*//Y le doy el comando de fusion.
+*//git merge nueva_rama *//Fusionar rama con la master.
+
+
+git add . *//Subo los cambios a la rama secundaria
+git commit -m "version 1 en nueva rama"
+git checkout master *// me muevo a la master
+git merge nueva_rama *// Fusiono los cambios de la "nueva_rama" con la rama "master"
