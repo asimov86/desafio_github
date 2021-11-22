@@ -52,3 +52,11 @@ git add . *//Subo los cambios a la rama secundaria
 git commit -m "version 1 en nueva rama"
 git checkout master *// me muevo a la master
 git merge nueva_rama *// Fusiono los cambios de la "nueva_rama" con la rama "master"
+
+
+*// Volver a version anterior
+##MOVER ENTRE COMMITS
+git log --oneline #Esto nos muestra historial resumido de commits, necesitamos copiar el ID del commit al que queremos volver
+#Hecho esto ingresamos:
+git checkout id delcommit
+# Si verifico donde estoy parado con git branch se puede observar que se está en el commit ya no en la rama, por lo que debería luego moverme a la rama
