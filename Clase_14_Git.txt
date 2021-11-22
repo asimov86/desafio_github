@@ -60,3 +60,56 @@ git log --oneline #Esto nos muestra historial resumido de commits, necesitamos c
 #Hecho esto ingresamos:
 git checkout id delcommit
 # Si verifico donde estoy parado con git branch se puede observar que se está en el commit ya no en la rama, por lo que debería luego moverme a la rama
+
+
+
+*//Después de crear el repositorio publico en GitHub. Seguir los pasos indicados
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/asimov86/desafio_github.git
+git branch -M main    *//Renombrado de rama master a main.
+git push -u origin main
+
+
+git push --all *// Si tengo varios commits a subir.
+git push *//SI quiero subir solo el ultimo commit de un grupo de commits 
+
+*//como ignorar aquellos archivos que no queremos subir?
+Archivo gitignore.
+crear .gitignore de la siguiente manera
+
+
+******************Inicio**************
+
+# Dentro de Gitignore armo una lista de objetos a ignorar
+
+# Ignora archivos
+.DS_store
+package.json
+
+#Ignora carpetas
+
+node_modules
+
+#Ignorar subcarpetas
+
+nombrecarpeta/nombresubcarpeta
+
+
+#ignorar todos los archivos dentro de un carpeta
+
+bootstrap/scss/*.scss
+
+nombrecarpeta/archivo
+
+# Ignora todos los archivos con la misma extensión
+
+*.txt
+
+*.gif
+
+***************Fin **************
+Nota no copiar las etiquetas Inicio Fin que tienen asteriscos.
+
+
+GitHub pages
